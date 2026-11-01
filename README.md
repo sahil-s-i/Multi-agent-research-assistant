@@ -83,7 +83,3 @@ Open the local Gradio URL printed in the terminal.
 - The planner is set to produce five search queries, but verify that the Manager Agent executes every planned query before describing the system as consistently performing five searches per request.
 - Search results depend on the external DuckDuckGo Search service and the configured language model.
 - SMTP delivery depends on valid server settings, credentials, network access, and a valid recipient.
-
-## License
-
-No license is specified. Add a license file if you want to define reuse and distribution terms.
