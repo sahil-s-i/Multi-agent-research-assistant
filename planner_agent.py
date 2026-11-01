@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from agents import Agent
 from model import gemini_model
 
-HOW_MANY_SEARCHES = 1
+HOW_MANY_SEARCHES = 5
 
 class WebSearchItem(BaseModel):
     reason: str = Field(description="Your reasoning for why this search is important to the query.")
